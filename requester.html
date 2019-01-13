@@ -1,0 +1,130 @@
+<html>
+<head>
+        <title>Online Blood Bank </title>
+</head>
+<body background ="blood-donation.jpg">
+<h1 style="color:red ;text-align:center; font-family:papyrus"> ONLINE BLOOD BANK</h1>
+<td align="center" class="horLine"><table width="98%"  border="0" cellspacing="0" cellpadding="3">
+              <tr>
+                <td align="left" valign="top" class="subHead">Requester Registration </td>
+              </tr>
+              <tr>
+                <td align="left" valign="top" class="txt" >
+                <table width="100%" align="center">         
+    <tr>
+    <td style="width:5px"></td>
+    <td style="width: 326px"> 
+        <span id="lblName">Name *</span></td>
+    <td style="width: 193px" > 
+        <input name="txtName" type="text" id="txtName" class="txtBox" /></td>
+        <td style="width:200px"></td></tr>
+        <tr><td style="width:5px"></td><td style="width: 326px"> 
+        <span id="lblGender">Gender *</span></td>
+    <td id="TD1" style="width:193px"> 
+        <select name="ddlstGender" id="ddlstGender" class="txtBox" style="width:117px;">
+	<option value="select">select</option>
+	<option value="M">Male</option>
+	<option value="F">Female</option>
+
+</select></td>
+
+        <td style="width:200px"></td></tr>
+        
+        
+                <tr><td style="width:5px"></td><td style="width: 326px"> 
+        <span id="lblCity">City/District *</span></td>
+    <td style="width: 193px"> 
+        <select name="ddlstCity" id="ddlstCity" class="txtBox" style="width:119px;">
+	<option value="0">-City/District-</option>
+	<option value="1">ARIYALUR</option>
+	<option value="2">CHENNAI</option>
+	<option value="3">COIMBATORE</option>
+	<option value="4">CUDDALORE</option>
+	<option value="5">DHARAMAPURI</option>
+	<option value="6">DINDIGUL</option>
+	<option value="7">ERODE</option>
+	<option value="8">KANCHEEPURAM</option>
+	<option value="9">KANNIYAKUMARI</option>
+	<option value="10">KARUR</option>
+	<option value="11">KRISHNAGIRI</option>
+	<option value="12">MADURAI</option>
+	<option value="13">NAGAPATTINAM</option>
+	<option value="14">NAMAKKAL</option>
+	<option value="15">PERAMBALUR</option>
+	<option value="16">PUDUKOTTAI</option>
+	<option value="17">SALEM</option>
+	<option value="18">SIVAGANGAI</option>
+	<option value="19">THANJAVUR</option>
+	<option value="20">THENI</option>
+	<option value="21">NILGIRIS</option>
+	<option value="22">THIRUNELIVELI</option>
+	<option value="23">THIRUVALLAR</option>
+	<option value="24">THIRUVANNAMALAI</option>
+	<option value="25">THIRUVARUR</option>
+	<option value="26">THOOTHUKUDI</option>
+	<option value="27">TRICHY</option>
+	<option value="28">TIRUPPUR</option>
+	<option value="29">VELLORE</option>
+	<option value="30">VILLUPURAM</option>
+	<option value="31">VIRUDHUNAGAR</option>
+	<option value="32">RAMANATHAPURAM</option>
+
+</select></td>
+        <td style="width:200px"></td></tr>
+                
+    <tr><td style="width:5px; height: 32px;"></td><td style="height: 32px; width: 326px;"> 
+        <span id="lblAddress">Address</span></td>
+    <td style="width: 193px; height: 32px;"> 
+        <textarea name="txtAddress" rows="2" cols="20" id="txtAddress" class="txtBox" style="height:50px;width:170px;"></textarea></td>
+        <td style="width:200px; height: 32px;"></td></tr>
+   
+   
+   <tr><td style="width:5px"></td><td style="width: 326px"> 
+        <span id="lblPin">PIN</span></td>
+    <td style="width: 193px"> 
+        <input name="txtPin" type="text" id="txtPin" class="txtBox" style="width:115px;" /></td>
+        <td style="width:200px"></td></tr>
+   
+        
+    <tr>
+    <td style="width:5px; height: 26px;"></td><td style="height: 26px; width: 326px;"> 
+        <span id="lblMobile">Phone :                          Mobile</span>
+        </td>
+    <td style="width: 193px; height: 26px;"> 
+        <input name="txtMob" type="text" id="txtMob" class="txtBox" /></td>
+        <td style="width:200px;" rowspan="2">
+            [Note:please provide contact number]</td></tr>
+        <tr><td style="width:5px"></td><td style="width: 326px"> 
+        <span id="lblBloodGroup">Required Blood Group *</span></td>
+    <td style="width: 193px"> 
+        <select name="ddlBlood" id="ddlBlood" class="txtBox" style="width:120px;">
+	<option value="-group-">-group-</option>
+	<option value="A1+">A1+</option>
+	<option value="A1-">A1-</option>
+	<option value="A2+">A2+</option>
+	<option value="A2-">A2-</option>
+	<option value="B+">B+</option>
+	<option value="B-">B-</option>
+	<option value="A1B+">A1B+</option>
+	<option value="A1B-">A1B-</option>
+	<option value="A2B+">A2B+</option>
+	<option value="A2B-">A2B-</option>
+	<option value="AB+">AB+</option>
+	<option value="AB-">AB-</option>
+	<option value="O+">O+</option>
+	<option value="O-">O-</option>
+	<option value="A+">A+</option>
+	<option value="A-">A-</option>
+	<option value="Bombay Group">Bombay Group</option>
+
+</select></td>
+        <td style="width:200px"></td></tr>
+               <tr><td style="width:5px"></td><td class="txtRed" style="width: 326px">* Mandatory 
+        </td>
+    <td style="width: 193px"> 
+        <a href="blooo.php"><input type="submit" name="btnSubmit" value="Submit" onclick="return checkDonor(frmDonorAdd);" id="btnSubmit" class="btn" /></a>
+        <a href="index.php"><input type="submit" name="btnCancel" value="Cancel" id="btnCancel" class="btn" /></td></a>
+        <td style="width:200px">
+            </td>
+        </tr></body>
+</html>
